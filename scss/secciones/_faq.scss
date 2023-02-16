@@ -19,3 +19,36 @@
     color: $color-principal;
     padding: 20px 0px 20px 20px;
 }
+
+@media (max-width: 720px) {
+
+
+    .faq h1 {
+        font-size: 30px;
+    }
+
+    .faq h2 {
+        font-size: 25px;
+    }
+
+    .faq p {
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq h1 {
+        font-size: 25px;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .faq p {
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+        text-align: justify;
+    }
+}
