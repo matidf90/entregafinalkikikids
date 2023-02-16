@@ -1,0 +1,18 @@
+header {
+    background: $color-fondo !important; 
+    background-color: $color-principal !important;
+    font-family: $typo-principal !important;
+    
+}
+
+.textcolor {
+    color: $color-principal !important;
+}
+
+.hover:hover {
+    color: $color-hover !important;
+}
+
+.textdecoration1 {
+    text-decoration: underline;
+}
