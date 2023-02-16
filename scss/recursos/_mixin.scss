@@ -1,0 +1,11 @@
+@mixin footer {
+    justify-content: center;
+    text-align: center;
+    font-family: $typo-principal;
+}
+
+@mixin header {
+    background-image: $color-fondo !important; 
+    background-color: $color-principal !important;
+    font-family: $typo-principal !important;
+}

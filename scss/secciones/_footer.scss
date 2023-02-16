@@ -8,9 +8,8 @@ footer {
 }
 
 footer h3{
-    justify-content: center;
+    @include footer;
     font-size: 24px;
-    font-family: $typo-principal;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
