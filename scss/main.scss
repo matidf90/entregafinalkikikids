@@ -1,4 +1,11 @@
-// Secciones
+/*Recursos, las variables siempre van arriba de todo para que funcionen*/
+@import './recursos/colores';
+@import './recursos/typografias';
+@import './recursos/reseteo';
+
+
+
+/*Secciones*/
 @import './secciones/header';
 @import './secciones/footer';
 @import './secciones/mainindex';
@@ -6,14 +13,6 @@
 @import './secciones/productos';
 @import './secciones/nosotros';
 @import './secciones/faq';
-
-
-// Recursos
-@import './recursos/colores';
-@import './recursos/typografias';
-@import './recursos/reseteo';
-
-
 
 @media (max-width: 900px) {
     .nosotros{
@@ -27,6 +26,7 @@
         width: 80%;
     }
 }
+
 /* Adaptacion para tablet */
 @media (max-width: 720px) {
     

@@ -12,10 +12,11 @@
     
     font-family: $typo-principal;
     color: $color-principal;
+    text-align: center;
     
 }
 .grid {
-    width: 100vw;
+    width: auto;
     display: grid;
     /* Especificaciones */
     grid-template-columns: 1fr 1fr 1fr 1fr;
