@@ -58,6 +58,18 @@ ol {
   .footer-nosotros {
     height: 30vh; } }
 
+.titleindex {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #717d7d; }
+
+.formulario {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #717d7d; }
+
 @media (max-width: 720px) {
   .titulocontacto {
     font-size: 25px; } }

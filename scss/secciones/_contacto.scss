@@ -1,3 +1,10 @@
+.formulario {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: $color-principal;
+}
+
 @media (max-width: 720px) {
     .titulocontacto {
         font-size: 25px;
